@@ -1,0 +1,15 @@
+#!name=URL Rewrite
+#!desc=Safari Search Add-ons by laoran
+
+[URL Rewrite]
+^https?://www.google.(com|cn)/search.*?q=tb\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=tb, 302
+^https?://www.google.(com|cn)/search.*?q=jd\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=jd, 302
+^https?://www.google.(com|cn)/search.*?q=pdd\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=pdd, 302
+^https?://www.google.(com|cn)/search.*?q=mt\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=mt, 302
+^https?://www.google.(com|cn)/search.*?q=blbl\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=blbl, 302
+^https?://www.google.(com|cn)/search.*?q=zdm\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=zdm, 302
+^https?://www.google.(com|cn)/search.*?q=app\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=app, 302
+^https?://www.google.(com|cn)/search.*?q=tm\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=tm, 302
+
+^https?://www.google.(com|cn)/search.*?q=bd\+ https://www.baidu.com/s?wd= 302
+^https?://www.google.(com|cn)/search.*?q=yd\+ https://m.youdao.com/dict?&q= 302
